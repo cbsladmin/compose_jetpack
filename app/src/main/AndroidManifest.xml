@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mindorks.example.jetpack.compose">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JetpackComposeAndroidExamples.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".text.SimpleTextActivity" />
+        <activity android:name=".text.TextStylingActivity" />
+        <activity android:name=".text.TextFieldActivity" />
+        <activity android:name=".preview.SimplePreviewActivity" />
+        <activity android:name=".preview.PreviewParameterActivity" />
+        <activity android:name=".layout.ColumnActivity" />
+        <activity android:name=".layout.ScrollableColumnActivity" />
+        <activity android:name=".layout.LazyColumnActivity" />
+        <activity android:name=".layout.RowActivity" />
+        <activity android:name=".layout.ScrollableRowActivity" />
+        <activity android:name=".layout.LazyRowActivity" />
+        <activity android:name=".layout.BoxActivity" />
+        <activity android:name=".layout.StackActivity" />
+        <activity android:name=".layout.ConstraintLayoutActivity" />
+        <activity android:name=".button.MaterialButtonActivity" />
+        <activity android:name=".card.CardExampleActivity" />
+        <activity android:name=".clickable.ClickableExampleActivity" />
+        <activity android:name=".image.ImageActivity" />
+        <activity android:name=".dialog.AlertDialogActivity" />
+        <activity android:name=".dialog.SingleChoiceDialogActivity" />
+        <activity android:name=".materialdesign.MaterialAppBarActivity" />
+        <activity android:name=".materialdesign.MaterialBottomNavigationActivity" />
+        <activity android:name=".materialdesign.MaterialCheckBoxActivity" />
+        <activity android:name=".materialdesign.MaterialProgressActivity" />
+        <activity android:name=".materialdesign.MaterialRadioButtonActivity" />
+        <activity android:name=".materialdesign.MaterialSliderActivity" />
+        <activity android:name=".materialdesign.MaterialSnackbarActivity" />
+        <activity android:name=".materialdesign.MaterialSwitchActivity" />
+        <activity android:name=".customview.CustomViewActivity" />
+        <activity android:name=".animation.CrossFadeAnimationActivity" />
+        <activity android:name=".animation.ShapeRotationActivity" />
+    </application>
+
+</manifest>
