@@ -1,6 +1,7 @@
 package com.mindorks.example.jetpack.compose.text
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.Icon
 import androidx.compose.foundation.Text
@@ -83,7 +84,9 @@ class SimpleTextActivity : AppCompatActivity() {
                                 navigationIcon = {
                                     // navigation icon is use
                                     // for drawer icon.
-                                    IconButton(onClick = { }) {
+                                    IconButton(onClick = {
+                                        Toast.makeText(this,"navigationIcon click",Toast.LENGTH_SHORT).show()
+                                    }) {
                                         // below line is use to
                                         // specify navigation icon.
                                         Icon(Icons.Filled.Menu)
